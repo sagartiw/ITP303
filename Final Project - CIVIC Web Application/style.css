@@ -1,0 +1,190 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Jost', sans-serif;
+}
+
+.padding{
+	padding-bottom: 2rem;
+}
+
+.navbar{
+	padding: .8rem;
+}
+
+.navbar-nav li{
+	padding-left: 1rem;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.btn-primary{
+	background-color: #1D6588;
+}
+
+.btn-primary:hover{
+	background-color: #FFFCFF;
+	border: 1px solid #1D6588;
+	color: #1D6588;
+}
+
+.btn-third {
+	background-color: #e4572e;
+	border: 1px solid #FFFCFF;
+	color: #fffcff;
+}
+
+.btn-third:hover{
+	background-color: #f9eb5e;
+	border: 1px solid #292928;
+	color: #292928;
+}
+
+.btn-outline-primary{
+	color: #1D6588;
+	border: 1px solid #1D6588;
+}
+
+.btn-outline-primary:hover{
+	background-color: #1D6588;
+	color: #FFFCFF;
+	border: 1px solid #1D6588;
+}
+
+.btn-outline-light:hover{
+	background-color: #1D6588;
+	color: #FFFCFF;
+	border: 1px solid #1D6588;
+}
+
+.btn-outline-secondary:hover{
+	background-color: #1D6588;
+	color: #FFFCFF;
+	border: 1px solid #1D6588;
+}
+
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+footer{
+	background-color: #1D6588;
+	color: #FFFCFF;
+}
+
+footer hr{
+	border-top: 2px solid;
+}
+
+footer .closed{
+	width: 95%;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.snapshot img{
+	width: 100%;
+}
+
+.tabletop table{
+	align-self: center;
+}
+
+#cityDetailsBox {
+    background-color: #e4572e;
+    color: #fffcff;
+    border: #1d6588 5px solid;
+    min-width: 300px;
+    max-width: 900px;
+}
+
+#cityDetailsList{
+	padding-inline-start: 0;
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#cityDetailsList li{
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#eventTable {
+    background-color: #f9eb5e;
+    color: #292928;
+    border: #1d6588 5px solid;
+    min-width: 300px;
+    max-width: 1200px;
+}
+
+#advocateBox {
+    background-color: #fffcff;
+    color: #fffcff;
+    border: #1d6588 5px solid;
+    min-width: 300px;
+	max-width: 1000px;
+	justify-content: center;
+	align-items: center;
+}
+
+#searchFormBox{
+	background-color: #1d6588;
+    color: #fffcff;
+	border: #292928 5px solid;
+	min-height: 200px;
+    min-width: 300px;
+	max-width: 1400px;
+}
+
+#searchFormBox .form-group{
+	width: 90%;
+}
+
+#addFormBox{
+	background-color: #1d6588;
+    color: #fffcff;
+	border: #292928 5px solid;
+	min-height: 200px;
+    min-width: 300px;
+	max-width: 1400px;
+}
+
+#addFormBox .form-group{
+	width: 90%;
+}
+
+#editFormBox{
+	background-color: #1d6588;
+    color: #fffcff;
+	border: #292928 5px solid;
+	min-height: 200px;
+    min-width: 300px;
+	max-width: 1400px;
+}
+
+#editFormBox .form-group{
+	width: 90%;
+}
+
+table th{
+	background-color: #1D6588;
+	color: #FFFCFF;
+}

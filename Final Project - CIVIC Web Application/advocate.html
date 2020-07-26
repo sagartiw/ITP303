@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CIVIC Advocate Page</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <!-- Jost Font -->
+        <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a id="btn-click" class="navbar-brand" href="#">
+                    <img src="img/logo.png" width="300px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="learn.html">LEARN</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">ADVOCATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="participate.php">PARTICIPATE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Image Slider -->
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/people.jpg">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 d-none d-sm-block">ADVOCATE</h1>
+                        <h4>Pioneer community programs or events that address social impact initiatives.</h4>
+                        <a href="search_form.php" type="button" class="btn btn-outline-light btn-lg mt-2">Search</a>
+                        <a href="add_form.php"type="button" class="btn btn-outline-light btn-lg mt-2">Add</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MAIN ENGINE-->
+        <div id="advocateBox" class="container padding mt-4 mb-4">
+            <div class="row mt-3">
+                <div class="col-12 col-md-6">
+                    <a href="search_form.php" class="btn btn-primary btn-lg btn-block mt-4 mt-md-2" role="button">Search for Events</a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="add_form.php" class="btn btn-primary btn-lg btn-block mt-4 mt-md-2" role="button">Add an Event</a>
+                </div>
+            </div> <!-- .row -->
+        </div> <!-- .container -->
+        <!-- Intro-->
+        <div class="container-fluid">
+            <div class="row jumbotron snapshot">
+                <div class="col-xs-12 col-sm-4 mt-4">
+                    <img src="img/data.png">
+                </div>
+                <div class="col-xs-12 col-sm-8 mt-4">
+                    <p>
+                        As the heart of the CIVIC platform, our "Advocate" engine is the bridge between an individual and their community. Here, users can not only search for local event information, but they can actively contribute to the community building effort by creating their own initiatives. We envision an environment where citizens can look utilize CIVIC as a funnel, parsing through the vast, disorganized data of their community and finding opportunities that align with their interests. 
+                    </p>
+                    <p>
+                        With newfound job loss and the ever-changing definition of “normal” work, people have the time and the drive to participate more in their communities. It is the primary goal of CIVIC to capture this motivation and translate it into positive social impact. If we can provide individuals with easy access to civic information and give organizations a platform to promote initiatives that solve community-wide issues, we can mobilize a generation of citizens, eager to collectively improve the human condition.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+       <footer>
+           <div class="container-fluid">
+               <div class="row text-center">
+                   <div class="col-md-4">
+                        <hr class="light">
+                       <h5>Contact Details</h5>
+                       <hr class="light">
+                       <p>630-885-9331</p>
+                       <p>sagartiw@usc.edu</p>
+                       <p>Los Angeles, CA</p>
+                   </div>
+                   <div class="col-md-4">
+                       <hr class="light">
+                       <h5>Service Areas</h5>
+                       <hr class="light">
+                       <p>Los Angeles</p>
+                       <p>Chicago</p>
+                       <p>New York City</p>
+                   </div>
+                   <div class="col-md-4">
+                       <hr class="light">
+                       <h5>Final Project Details</h5>
+                       <hr class="light">
+                       <p>Class: ITP303</p>
+                       <p>Teacher: Nayeon Kim</p>
+                       <p>Semester: Spring 2020</p>
+                   </div>
+               </div>
+           </div>
+           <hr class="light closed">
+           <div class="row text-center">
+                <div class="col-12">
+                    <h3>CIVIC</p>
+                </div>
+           </div>
+       </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
