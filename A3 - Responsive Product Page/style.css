@@ -1,0 +1,135 @@
+html, body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: orange;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#header {
+    height: 200px;
+    line-height: 200px;
+    background-position: center top;
+    background-repeat: no-repeat;
+	background-size: cover;
+    text-align: center;
+    background-color: cyan;
+    padding: 0px;
+}
+#header h1 {
+    font-size: xx-large;
+    color: darkslateblue;
+    margin: 0;
+}
+#product {
+    color: darkslateblue;
+    padding: 5px;
+}
+#product #product-img #boostedboardmini {
+    width: 100%;
+    align-self: center;
+    max-width: 1300px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+#product #product-promo {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: orange;
+    border: 3px solid cyan;
+    color: darkslateblue;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+#related {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 90%;
+}
+#related #related-name {
+    color: darkslateblue;
+    padding: 5px;
+}
+#related img {
+    align-self: center;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+#related .item .caption {
+    /* Some styles for the date box */
+    background-color: cyan;
+    border: 2px solid darkslateblue;
+    border-width: 5px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    right: 0px;
+    visibility: hidden;
+}
+#related .item:hover .caption {
+    visibility: visible;
+}
+.clearfloat {
+    clear: both;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* For bigger screens */
+@media(min-width: 768px) {
+    /* Screens from 768px and up will have this CSS applied */
+    #product .column {
+        width: 48%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
+        float: left;
+    }
+    #product #product-name {
+        float: right;
+        width: 48%;
+        margin-bottom: 0%;
+    }
+    #related .row {
+        width: 100%;
+        float: left;
+    } 
+    #related .row .item {
+        max-width: 44%;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+@media(min-width: 992px) {
+    /* Screens from 992px and up will have this CSS applied */
+    #related .row {
+        width: 50%;
+        float: left;
+    } 
+    #product #product-facts {
+        max-width: 1000px;
+    }
+}

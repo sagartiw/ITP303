@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark">
+            <!-- Flexi Logo for the aesthetic-->
+            <a id="btn-click" class="navbar-brand" href="#">
+                <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
+            </button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sagartiwari.com/" target ="_blank">SAGAR</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+            </div>
+        </nav>
+  
+        <div id = "header" class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h1 class="display-4">Our Team</h1>
+                <p class="lead">Los Angeles | Chicago | New York</p>
+            </div>
+        </div>
+            
+        <div class="clearfix"></div>
+        <div class="container-fluid justify-content-md-center text-center">
+            <div class="row">
+              <!-- Team Member 1 -->
+                <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
+                    <div class="card border-0 shadow">
+                    <img src="images/aa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Leonardo DiCaprio</h5>
+                        <div class="card-text text-black-50">CTO</div>
+                        <p class="lead">Leonardo Wilhelm DiCaprio is an American actor, producer, and environmentalist. He has often played unconventional parts, particularly in biopics and period films. As of 2019, his films have earned US$7.2 billion worldwide, and he has placed eight times in annual rankings of the world's highest-paid actors.</p>
+                        <hr class="my-4">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </div>
+                    </div>
+                </div>
+              <!-- Team Member 2 -->
+                <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
+                    <div class="card border-0 shadow">
+                    <img src="images/a.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Dwayne "The Rock" Johnson</h5>
+                        <div class="card-text text-blacyk-50">CEO</div>
+                        <p class="lead">Dwayne Douglas Johnson, also known by his ring name, The Rock, is an American-Canadian actor, producer, investor and retired professional wrestler. Johnson was a professional wrestler for the World Wrestling Federation for eight years prior to pursuing an acting career. </p>
+                        <hr class="my-4">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </div>
+                    </div>
+                </div>
+              <!-- Team Member 3 -->
+                <div class="col-xl-4 col-md-4 col-sm-12 mb-4">
+                    <div class="card border-0 shadow">
+                    <img src="images/614544_11848778_2258703_cf5ae649_image.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Justin Bieber</h5>
+                        <div class="card-text text-black-50">CMO</div>
+                        <p class="lead">Justin Drew Bieber is a Canadian singer, songwriter and actor. Discovered at 13 years old by talent manager Scooter Braun after he had watched his YouTube cover song videos, Bieber was signed to RBMG Records in 2008.</p>
+                        <hr class="my-4">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id= "footer">flexi llc. 2020.</div>
+        </div>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            function flexi(){
+                alert("Welcome to Flexi!");
+            }
+            document.querySelector("#btn-click").onclick = flexi;
+        </script>
+    </body>
+</html>

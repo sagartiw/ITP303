@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexi: Homepage</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- A grey horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-sm bg-dark">
+            <a id="btn-click" class="navbar-brand" href="#">
+                <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sagartiwari.com/" target ="_blank">SAGAR</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id = "header" class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h1 class="display-4">FLEXI</h1>
+                <p class="lead">change the way you work.</p>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="container-fluid justify-content-md-center text-center">
+            <div id="f1" class="row border-0 shadow mb-4">
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="display-4">Transformative Human Resources</h2>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="images/featone.jpg" width="400" class="d-inline-block p-2">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        Talk with our world-class representatives about how you can truly "flex" your work schedule. We train our employees three times a year to learn about the best communication practices to help YOU find your future.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="container-fluid justify-content-md-center text-center">
+            <div class="row border-0 shadow mb-4">
+                <div class="col-sm-12 col-md-6">
+                    <h2 class="display-4">Groundbreaking Technology</h2>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="images/feattwo.jpg" width="400" class="d-inline-block p-2">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p>
+                        Our state of the art AI technology pairs you with the small businesses that fit YOUR workstyle. We take all the info that you give us and cross reference it with millions of other data points, developing the best recommendation for you.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div class="container-fluid">
+            <div id= "footer">flexi llc. 2020.</div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            function flexi(){
+                alert("Welcome to Flexi!");
+            }
+            document.querySelector("#btn-click").onclick = flexi;
+        </script>
+    </body>
+</html>

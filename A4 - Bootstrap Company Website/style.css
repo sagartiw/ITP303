@@ -1,0 +1,128 @@
+html, body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff5050;
+}
+#header {
+    background-color: steelblue;
+    background-image: url(images/afi.jpg);
+    background-position: center top;
+    color: #0099ff;
+    border: 10px solid #0099ff;
+    font-style: oblique;
+}
+#f1 {
+    border: 0px 0px 1px 0px solid;
+}
+#footer {
+    left: 0;
+    bottom: 0;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    background: rgb(2,0,36);
+    color: white;
+    text-align: center;
+}
+.line{
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid black;
+}
+.active {
+    color: white;
+}
+/* The parent */
+.container {
+    /*display: flex; makes all the children "flex items". 
+    By default, children are put in one row.*/
+    display: flex;
+    height: 300px;
+    /*flex direction determins the main axis.*/
+    flex-direction: column;
+    /*justify content defines alignment along main axis.*/
+    justify-content: center;
+    /*align items defines alignment along cross axis*/
+    align-items: center;
+}
+
+.animated-icon {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+} 
+.clearfloat {
+    clear: both;
+}
+.animated-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+.animated-icon span {
+    background: #e3f2fd;
+}
+.animated-icon span:nth-child(1) {
+    top: 0px;
+} 
+.animated-icon span:nth-child(2), .animated-icon2 span:nth-child(3) {
+    top: 10px;
+}
+.animated-icon span:nth-child(4) {
+    top: 20px;
+}
+.animated-icon.open span:nth-child(1) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+}
+.animated-icon.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.animated-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.animated-icon.open span:nth-child(4) {
+    top: 11px;
+    width: 0%;
+    left: 50%;
+}
+.top-buffer { margin-top:20px; }
+@media(min-width: 768px){
+	#features {
+		flex-direction: row;
+	}
+}
+@media(min-width: 1200px){
+    .container{
+        max-width: 1126px;
+    }
+}

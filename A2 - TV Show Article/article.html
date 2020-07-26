@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TV Show Article</title>
+        <style>
+            html, body{overflow-x: hidden;}
+            body{
+                background-color: blueviolet;
+                margin: 0;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #Header h1{
+                font-size: 50px;
+                -webkit-text-stroke: 2px black;
+                color: hotpink; 
+                text-align: center;
+                background-image: url('rick-and-morty-header.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 215px;
+                padding-bottom: 125px;
+            }
+
+            #Main #column1 {
+                background-color: blueviolet;
+                width: 30%;
+                float: left;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 70px;
+                height: auto;
+            }
+
+            #Main #column2 {
+                background-color:springgreen;
+                padding-top: 20px;
+                width: 60%;
+                /* Don't add a fixed height because content can change */
+                /*height: 399px;*/
+                float: left;
+                height: auto;
+                /* There is an unforunate side effect to float.. It will cause whatever comes after the float to try to wrap around the floated element*/
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+            .clearfloat {
+                clear: both;
+            }
+
+            #Footer {
+                left: 0;
+                bottom: 0;
+                margin: 0 -9999rem;
+                padding: 0.25rem 9999rem;
+                padding-top: 100px;
+                background-color: mediumturquoise;
+                color: purple;
+                text-align: center;
+            }
+
+            #Rick img{
+                max-width:90%;
+                max-height:100%;
+            }
+            #Morty img{
+                max-width:90%;
+                max-height: 100%;
+            }
+            #MrPB img{
+                max-width:90%;
+                max-height:100%;
+            }
+
+            #Top img{
+                float: right;
+                align-self: auto;
+                align-self: auto;
+                max-width:50%;
+                max-height:100%;
+                padding-left: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            #Middle img{
+                float: left;
+                align-self: auto;
+                align-self: auto;
+                max-width:50%;
+                max-height:100%;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            #Bottom img{
+                float: right;
+                align-self: auto;
+                align-self: auto;
+                max-width:50%;
+                max-height:100%;
+                padding-left: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Header">
+            <h1>RICK AND MORTY</h1>
+        </div>
+
+        <div id="Main">
+            <div id="column1">
+                <div id=Rick>
+                    <h2>Rick Sanchez</h2>
+                    <img src="ricks-face-from-rick-and-morty-hd-png-download-475x6921942725-rick-face-png-840_730.png" alt="Picture of Rick">
+                </div>
+                <div id=Morty>
+                    <h2>Morty Smith</h2>
+                    <img src="morty-smith-amazon-com-computer-mouse-mouse-mats-rick-sanchez-skin.jpg" alt="Picture of Morty">
+                </div>
+                <div id=MrPB>
+                    <h2>Mr. Poopybutthole</h2>
+                    <img src="asdf.jpg" alt="Picture of Mr. Poopybutthole">
+                </div>
+            </div>
+            <div id="column2">
+                <div id= "Top">
+                    <h2>Premise</h2>
+                    <p>
+                        The show revolves around the adventures of the members of the Smith household, which consists of parents Jerry and Beth, their children Summer and Morty, and Beth's father, Rick Sanchez, who lives with them as a guest. According to Justin Roiland, the family lives outside of Seattle, Washington.[2] The adventures of Rick and Morty, however, take place across an infinite number of realities, with the characters travelling to other planets and dimensions through portals and Rick's flying car.
+                    </p>
+                    <img src="family.jpeg" alt="Picture of Smith Family">
+                    <p>
+                        Rick is an eccentric and alcoholic mad scientist, who eschews many ordinary conventions such as school, marriage, love, and family. He frequently goes on adventures with his 14-year-old grandson, Morty, a kind-hearted but easily distressed boy, whose naïve but grounded moral compass plays counterpoint to Rick's Machiavellian ego. Morty's 17-year-old sister, Summer, is a more conventional teenager who worries about improving her status among her peers and sometimes follows Rick and Morty on their adventures. The kids' mother, Beth, is a generally level-headed person and assertive force in the household, though self-conscious about her professional role as a horse surgeon. She is dissatisfied with her marriage to Jerry, a simple-minded and insecure person, who disapproves of Rick's influence over his family.
+                    </p>
+                    <p>
+                        Different versions of the characters inhabit other dimensions throughout the multiverse and their personal characteristics can vary from one reality to another. The show's original Rick identifies himself as "Rick Sanchez of Earth Dimension C-137", in reference to his original universe, but this does not necessarily apply to every other member of the Smith household. For instance, in the first-season episode "Rick Potion #9", after turning the entire world population into monsters, Rick and Morty move to a different dimension, leaving Summer, Beth and Jerry behind.
+                    </p>
+                    
+                </div>
+                <div id= "Middle">
+                    <h2>Comedic Style</h2>
+                    <p>
+                        The general formula of Rick and Morty consists of the juxtaposition of two conflicting scenarios: an extremely selfish, alcoholic grandfather dragging his grandson along for interdimensional adventures, intercut with domestic family drama.[23][25] Co-creator Dan Harmon has described the series as a cross between Matt Groening's two shows The Simpsons and Futurama, balancing family life with heavy science fiction.[29] The series is inspired by British-style storytelling, as opposed to traditional American family TV stories.[21] Harmon has stated that his inspiration behind much of the concept and humor for the series comes from various British television series, such as The Hitchhiker's Guide to the Galaxy and Doctor Who. He figures that the audience will only understand developments from Morty's point of view, but stated "we don't want to be the companions. We want to hang out with the Doctor, we idolize the Doctor, but we don't think like him, and that's really interesting."[39]
+                    </p>
+                    <img src="pickle.jpg" alt="Picture of Pickle Rick">
+                    <p>
+                        Occasionally, characters will acknowledge an episode's narrative or hint at the presence of a fourth wall, suggesting that they are aware of the fact that they are characters of a TV show. Thereunder, Troy Patterson of The New Yorker notes that Rick and Morty "supplies an artful answer to the question of what follows postmodernism: a decadent regurgitation of all its tropes, all at once, leavened by some humanistic wistfulness."[40] Sean Sebastian of Junkee says that the show can be both hilarious and deeply disturbing at the same time as it excels at the "intersection between big ideas, flippancy and wit."[41]
+                    </p>
+                   
+                </div>
+                <div id= "Bottom">
+                    <h2>Philosophy</h2>
+                    <p>
+                        Rick and Morty has been described as "a never-ending fart joke wrapped around a studied look into nihilism".[42] The series addresses the insignificance of human existence as compared to the size of the universe, with no recognizable divine presence, as described by Lovecraft's philosophy of cosmicism. The characters of the show deal with cosmic horror and existential dread, either by asserting the utility of science over magic or by choosing a life in ignorant bliss.[43] However, as Joachim Heijndermans of Geeks notes, none of them appear able to handle the absurd and chaotic nature of the universe, as Jerry gets by through denial, and Rick is a "depressed, substance-addicted, suicidal mess".[44]
+                    </p>
+                    <img src="toilet.jpg" alt="Picture of Toilet">
+                    <p>
+                        Harmon describes Rick as a self-interested anarchist, who doesn't like being told what to do.[45] He believes that the character's life on a larger scale has caused him mental illness,[39] and opines that "the knowledge that nothing matters—while accurate—gets you nowhere".[46] Matthew Bulger of The Humanist notes that the creators of the series are trying to communicate the message that we need to focus on human relationships and not preoccupy our minds with unanswerable questions, in order to find a sense of purpose and live a better life.[47] Eric Armstrong of The New Republic notes that Morty represents the audience, as he is "mostly there to react to Rick's deranged schemes". The character is transformed by the truths he discovers during his interdimensional adventures with his grandfather. However, instead of sinking into depression, Morty accepts these truths that empower him to value his own life.[48]
+                    </p>
+                    <p>
+                        “	Nobody exists on purpose, nobody belongs anywhere, everybody's gonna die. Come watch TV.	”
+                            — Morty Smith, in the episode "Rixty Minutes"
+                    </p>
+                </div>
+            </div>
+            <!-- Good rule of thumb is to clear float at the end of one row. Clear it RIGHT after the last div that was floated. -->
+            <div class="clearfloat"></div>
+        </div>
+        <div id= "Footer">
+            <h3>Created by Sagar Tiwari for ITP 303.</h3>
+        </div>
+    </body>
+</html>
